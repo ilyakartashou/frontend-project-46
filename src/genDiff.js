@@ -1,6 +1,5 @@
-import parse from './parse.js';
+import treeBuild from "./treeBuilder.js";
 
 export default (filepath1, filepath2) => {
-  console.log(parse(filepath1));
-  console.log(parse(filepath2));
+  treeBuild(filepath1, filepath2);
 };
