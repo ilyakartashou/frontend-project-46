@@ -21,8 +21,8 @@ export default (filepath1, filepath2) => {
     return acc;
   }, []);
   const result = _.sortBy(diffCollection, ['key'])
-    .map(({ status, key, value }) => `${status} ${key}: ${value}`)
+    .map(({ status, key, value }) => `  ${status} ${key}: ${value}`)
     .join('\n');
 
-  console.log(`{\n${result}\n}`);
+  return `{\n${result}\n}`;
 };
