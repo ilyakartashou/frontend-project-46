@@ -1,0 +1,9 @@
+{
+    Imaro: null
+    author: Charles R. Saunders
+    language: English
+  - pages: 224
+  + pages: 220
+  - publication-year: 1981
+  + publication-year: 1983
+}
