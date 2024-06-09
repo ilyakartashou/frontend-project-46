@@ -9,3 +9,7 @@
 ## Asciinema for two-yaml-files comparison
 
 [![asciicast](https://asciinema.org/a/qw1xYZWJyvvedXdUA4SFeXHpK.svg)](https://asciinema.org/a/qw1xYZWJyvvedXdUA4SFeXHpK)
+
+## Asciinema for two-nested-files comparison
+
+[![asciicast](https://asciinema.org/a/4TqiDJf1E6is1f4JDzenYCVS0.svg)](https://asciinema.org/a/4TqiDJf1E6is1f4JDzenYCVS0)
