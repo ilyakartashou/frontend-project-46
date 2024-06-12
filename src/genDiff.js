@@ -1,9 +1,10 @@
-import parse from './parse.js';
-import { buildTree, stylish } from './treeBuilder.js';
+import formatter from "./formatters/index.js";
+import parse from "./parse.js";
+import { buildTree } from "./treeBuilder.js";
 
-export default (filepath1, filepath2) => {
+export default (filepath1, filepath2, format) => {
   const data1 = parse(filepath1);
   const data2 = parse(filepath2);
-  const temp = buildTree(data1, data2);
-  return stylish(temp);
+  const diff = buildTree(data1, data2);
+  return formatter(diff, format);
 };
