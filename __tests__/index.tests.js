@@ -34,7 +34,7 @@ const data = [
 
 data.forEach(({
   name, file1, file2, format, txt,
-}) => test(name, () => {
+}) => test(`${name}`, () => {
   expect(
     genDiff(getFixturePath(file1), getFixturePath(file2), format),
   ).toEqual(fs.readFileSync(getFixturePath(txt), 'utf-8'));
