@@ -10,25 +10,25 @@ const getOutput = (value) => {
   return value;
 };
 const plain = (tree) => {
-  const iter = (node, start = "") => {
+  const iter = (node, start = '') => {
     const result = node
-      .filter((el) => el.status !== "unchanged")
+      .filter((el) => el.status !== 'unchanged')
       .map((el) => {
         const first = `${start}${el.key}`;
         switch (el.status) {
-          case "added":
+          case 'added':
             return `Property '${first}' was added with value: ${getOutput(el.value)}`;
-          case "deleted":
+          case 'deleted':
             return `Property '${first}' was removed`;
-          case "changed":
+          case 'changed':
             return `Property '${first}' was updated. From ${getOutput(el.oldValue)} to ${getOutput(el.newValue)}`;
-          case "nested":
+          case 'nested':
             return iter(el.value, `${first}.`);
           default:
             throw new Error(`Invalid status - ${el.status}`);
         }
       });
-    return result.join("\n");
+    return result.join('\n');
   };
 
   return iter(tree);
