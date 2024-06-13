@@ -1,10 +1,10 @@
-import _ from "lodash";
+import _ from 'lodash';
 
 const getOutput = (value) => {
   if (_.isObject(value)) {
-    return "[complex value]";
+    return '[complex value]';
   }
-  if (typeof value === "string") {
+  if (typeof value === 'string') {
     return `'${value}'`;
   }
   return value;
