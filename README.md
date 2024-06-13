@@ -13,3 +13,7 @@
 ## Asciinema for two-nested-files comparison
 
 [![asciicast](https://asciinema.org/a/4TqiDJf1E6is1f4JDzenYCVS0.svg)](https://asciinema.org/a/4TqiDJf1E6is1f4JDzenYCVS0)
+
+## Asciinema for files comparison with json-output
+
+[![asciicast](https://asciinema.org/a/663861.svg)](https://asciinema.org/a/663861)
