@@ -6,6 +6,17 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/test_coverage)](https://codeclimate.com/github/ilyakartashou/hexlet-my-first-workflow/test_coverage)
 
+## Welcome to gendiff application!
+
+## Clone this repository at first
+
+## Install it with ```install```
+
+## make ```npm link``` from root directory
+
+## Run brain-even
+```gendiff -h ```
+
 ## Asciinema for two-yaml-files comparison
 
 [![asciicast](https://asciinema.org/a/qw1xYZWJyvvedXdUA4SFeXHpK.svg)](https://asciinema.org/a/qw1xYZWJyvvedXdUA4SFeXHpK)
