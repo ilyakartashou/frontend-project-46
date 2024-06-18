@@ -14,7 +14,7 @@
 
 ## make ```npm link``` from root directory
 
-## Run brain-even
+## Run application with
 ```gendiff -h ```
 
 ## Asciinema for two-yaml-files comparison
