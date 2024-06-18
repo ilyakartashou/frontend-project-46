@@ -5,7 +5,7 @@ const buildTree = (data1, data2) => {
   const keys2 = Object.keys(data2);
   const generalKeys = _.union(keys1, keys2);
   const result = generalKeys.reduce((acc, key) => {
-    if (typeof data1[key] === 'object' && typeof data2[key] === 'object') {
+    if (_.isObject(data1[key]) && _.isObject(data2[key])) {
       return [...acc, {
         key,
         value: buildTree(data1[key], data2[key]),
